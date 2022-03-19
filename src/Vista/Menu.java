@@ -48,6 +48,7 @@ public class Menu extends MenuTemplate {
 			opcion = sc.nextInt();
 			
 			
+			
 
 			switch (opcion) {
 			case 1:
@@ -97,7 +98,7 @@ public class Menu extends MenuTemplate {
 		 * Cliente"); System.out.println(); System.out.println("Run del Cliente " +
 		 * clienteListado.getRunCliente()); System.out.println("Nombre del Cliente " +
 		 * clienteListado.getNombreCliente()); System.out.println("Apellido del cliente
-		 * " + clienteListado.getApellidoCliente()); System.out.println("Años como
+		 * " + clienteListado.getApellidoCliente()); System.out.println("Aï¿½os como
 		 * cliente " + clienteListado.getAniosCliente()); System.out.println("Categoria
 		 * del cliente " + clienteListado.getNombreCategoria());
 		 * System.out.println("\n-------------------------------------");
@@ -116,7 +117,7 @@ public class Menu extends MenuTemplate {
 		System.out.println("Ingrese apellido del Cliente: ");
 		String apellidoCliente = sc.nextLine();
 		// clienteIngresado.setApellidoCliente(sc.nextLine());
-		System.out.println("Ingrese años como Cliente: ");
+		System.out.println("Ingrese aï¿½os como Cliente: ");
 		String aniosCliente = sc.nextLine();
 		// clienteIngresado.setAniosCliente(sc.nextLine());
 		// clienteIngresado.setNombreCategoria(CategoriaEnum.ACTIVO);
@@ -189,7 +190,7 @@ public class Menu extends MenuTemplate {
 					System.out.println("1- El Run del Cliente es: " + clienteAEditar.getRunCliente());
 					System.out.println("2- El Nombre del Cliente es: " + clienteAEditar.getNombreCliente());
 					System.out.println("3- El Apellido del Cliente es: " + clienteAEditar.getApellidoCliente());
-					System.out.println("4- Los Años como Cliente son: " + clienteAEditar.getAniosCliente());
+					System.out.println("4- Los Aï¿½os como Cliente son: " + clienteAEditar.getAniosCliente());
 					System.out.println();
 					System.out.println("Ingrese opcion a editar de los datos del Cliente");
 					int opcionEditar = sc.nextInt();
@@ -220,7 +221,7 @@ public class Menu extends MenuTemplate {
 
 					}
 					if (opcionEditar == 4) {
-						System.out.println("1- Ingrese Años como Cliente");
+						System.out.println("1- Ingrese Aï¿½os como Cliente");
 						String aniosEditar = sc.nextLine();
 						clienteAEditar.setAniosCliente(aniosEditar);
 						System.out.println("Datos cambiados con exito");
@@ -276,9 +277,9 @@ public class Menu extends MenuTemplate {
 		System.out.println("Selecciona el formato a exportar: ");
 		System.out.println();
 		System.out.println("1.- Formato csv");
-		System.out.println("(El archivo se llamará Clientes.csv)");
+		System.out.println("(El archivo se llamarï¿½ Clientes.csv)");
 		System.out.println("2.- Formato txt");
-		System.out.println("(El archivo se llamará Clientes.txt)");
+		System.out.println("(El archivo se llamarï¿½ Clientes.txt)");
 		System.out.println("Ingresa una opcion para Exportar: ");
 		System.out.println("-----------------------------------");
 		System.out.println();
@@ -294,13 +295,13 @@ public class Menu extends MenuTemplate {
 		sc.nextLine();
 
 		System.out.println("Ingresa el nombre de la carpeta donde deseas guardar el archivo");
-		System.out.println("La crearé dentro de PruebaJavaBasico.carpetaDeTrabajo");
+		System.out.println("La crearï¿½ dentro de PruebaJavaBasico.carpetaDeTrabajo");
 		String Carpeta = sc.nextLine();
 
 		while (Carpeta == null || Carpeta.isEmpty() || Carpeta.contains(" ")) {
-			System.out.println("El nombre de la carpeta no puede se nulo, estar vacío o contener espacios en blanco");
+			System.out.println("El nombre de la carpeta no puede se nulo, estar vacï¿½o o contener espacios en blanco");
 			System.out.println();
-			System.out.println("Ingresa un nombre válido para la carpeta donde deseas dejar el archivo");
+			System.out.println("Ingresa un nombre vï¿½lido para la carpeta donde deseas dejar el archivo");
 			Carpeta = sc.nextLine();
 		}
 
