@@ -44,7 +44,10 @@ public class Menu extends MenuTemplate {
 			System.out.println("6.Salir");
 			System.out.println();
 			System.out.println("Ingrese una opcion");
+			System.out.println("Ingrese una opcion");
 			opcion = sc.nextInt();
+			
+			
 
 			switch (opcion) {
 			case 1:
@@ -325,7 +328,7 @@ public class Menu extends MenuTemplate {
 		if (opcionAmbiente == 2) {
 			if (!directorioWindows.exists()) {
 				directorioWindows.mkdirs();
-				System.out.println("Carpeta creada exitosamente en " + directorioWindows.toString());
+				System.out.println("Carpeta creada exitosamente en : " + directorioWindows.toString());
 
 				if (opcionFormato == 1) {
 					exportadorCsv.exportar(directorioWindows.toString(), fileName, clienteServicio.getListaClientes());
