@@ -40,7 +40,7 @@ public class Menu extends MenuTemplate {
 			System.out.println("2.Agregar Cliente");
 			System.out.println("3.Editar Cliente");
 			System.out.println("4.Cargar Datos");
-			System.out.println("5.Exportar Datos");
+			System.out.println("5.Exportar Datos:");
 			System.out.println("6.Salir");
 			System.out.println();
 			System.out.println("Ingrese una opcion");
